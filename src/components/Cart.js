@@ -48,7 +48,7 @@ class Cart extends Component{
             ):
 
              (
-                <p>Nothing.</p>
+                <p>No Items found.</p>
              )
        return(
             <div className="container">
