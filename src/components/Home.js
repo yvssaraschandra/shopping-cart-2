@@ -19,7 +19,7 @@ import { addToCart } from './actions/cartActions'
 
                             <div className="center">{item.title}</div>
 
-                            <div to="/" className="btn-floating halfway-fab waves-effect waves-light red" onClick={()=>{this.handleClick(item.id)}}><i className="material-icons">add</i></div>
+                            <div to="/" className="btn-floating halfway-fab waves-effect waves-light red" onClick={()=>{this.handleClick(item.id);alert("An item has been added to your cart")}}><i className="material-icons">add</i></div>
 
                             <p><b>₹ {item.price}</b></p>
                         </div>
